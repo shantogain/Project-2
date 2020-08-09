@@ -1,0 +1,13 @@
+span{
+    color: chartreuse;
+}
+.head-section{
+    height: 100vh;
+    
+}
+.head-section__banner-container{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100%;
+}
