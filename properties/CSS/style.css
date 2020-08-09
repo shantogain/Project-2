@@ -1,13 +1,49 @@
 span{
     color: chartreuse;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 .head-section{
     height: 100vh;
+    background-image: url(/properties/img/banner/banner-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     
 }
-.head-section__banner-container{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 100%;
+.button{
+    display: inline-block;
+    background-color:#71cd14;
+    border: 1px solid #71cd14;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 35px;
+}
+
+.feature-area__list-1{
+    border: 1px solid #4b4b4b;
+}
+.feature-area__list-2{
+    border: 1px solid #4b4b4b;
+}
+
+.feature-area__list-3{
+    border: 1px solid #4b4b4b;
+}
+
+.feature-area__list-4{
+    border: 1px solid #4b4b4b;
+}
+
+
+
+.feature-area{
+    text-align: center;
+    
 }
